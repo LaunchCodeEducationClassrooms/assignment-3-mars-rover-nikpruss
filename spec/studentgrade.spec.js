@@ -13,7 +13,7 @@ describe("GRADING TEST: ", function() {
      expect(studentSpecs.length).toEqual(13);
      for (let i = 0; i < studentSpecs.length; i++)
      {
-       expect(studentSpecs[i].status).toEqual("passed");
+       expect(studentSpecs[i].status).toEqual("passed");       
        expect(studentSpecs[i].passedExpectations.length).toBeGreaterThanOrEqual(1);
      }
    });
